@@ -1,0 +1,9 @@
+[2020-08-06 22:41:20.103] [sharedprocess] [info] main {"machineId":"fa4fedd1ddaa6b4afe80c690c95789b43543001616849dbd4ac222c44bc52a6f","windowId":2}
+[2020-08-06 22:41:20.192] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/francisco/0-FullCycle/Docker/laravel/~/.vscode-root/User/snippets'
+[2020-08-06 22:42:00.150] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-06 22:50:56.283] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2020-08-06 22:50:59.489] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/francisco/0-FullCycle/Docker/laravel/~/.vscode-root/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.4.1
+[2020-08-06 22:51:05.233] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-azuretools.vscode-docker-1.4.1: ms-azuretools.vscode-docker
+[2020-08-06 22:51:05.234] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-azuretools.vscode-docker-1.4.1
+[2020-08-06 22:51:05.288] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2020-08-06 22:51:05.938] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
