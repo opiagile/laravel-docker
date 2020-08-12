@@ -1,6 +1,6 @@
 # laravel-app 
-## Exercicio 1 - Publicando imagem Laravel
+## Publicando imagem Laravel
 https://hub.docker.com/repository/docker/opiagile/laravel-app
 
-# Desafio Docker
+## Desafio Docker
 https://hub.docker.com/repository/docker/opiagile/codeeducation
