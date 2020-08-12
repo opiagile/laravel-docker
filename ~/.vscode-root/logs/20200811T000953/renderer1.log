@@ -1,0 +1,1 @@
+[2020-08-11 00:10:22.964] [renderer1] [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/home/francisco/0-FullCycle/Docker/laravel/docker-compose.yaml' (Error: File Modified Since) file:///home/francisco/0-FullCycle/Docker/laravel/docker-compose.yaml

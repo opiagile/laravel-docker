@@ -135,3 +135,149 @@ fatal: no upstream configured for branch 'master'
 > git remote --verbose
 > git config --get commit.template
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/.env
+> git symbolic-ref --short HEAD
+> git show --textconv :.env
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/francisco/0-FullCycle/Docker/laravel/.env
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/.env
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git show --textconv :.env
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/francisco/0-FullCycle/Docker/laravel/.env
+> git show --textconv :.docker/nginx/Dockerfile
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/.docker/nginx/Dockerfile
+> git cat-file -s 92c076a8d06809465539214b0f728e4ce39aeaa9
+> git show --textconv :docker-compose.yaml
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/docker-compose.yaml
+> git cat-file -s a8b49660fd7c8f8f5771dea04b5ab19c6091df34
+> git check-ignore -v -z --stdin
+> git show --textconv :.docker/nginx/Dockerfile
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/.docker/nginx/Dockerfile
+> git cat-file -s 92c076a8d06809465539214b0f728e4ce39aeaa9
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :docker-compose.yaml
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/docker-compose.yaml
+> git cat-file -s a8b49660fd7c8f8f5771dea04b5ab19c6091df34
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git status -z -u
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git status -z -u
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/Dockerfile
+> git cat-file -s 8e548e22b49b56190d2c51c25295ba0d70978f6e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :.docker/mysql/Dockerfile
+> git ls-files --stage -- /home/francisco/0-FullCycle/Docker/laravel/.docker/mysql/Dockerfile
+> git cat-file -s ac1f6b3dcc7acf26613ce476ca8c7a1f814920fb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

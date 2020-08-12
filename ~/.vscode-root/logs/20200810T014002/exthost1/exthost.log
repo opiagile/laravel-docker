@@ -24,3 +24,5 @@
 [2020-08-10 11:26:11.480] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
 [2020-08-10 11:26:11.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
 [2020-08-10 11:26:11.611] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-08-10 22:30:14.100] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker {"startup":false,"extensionId":{"value":"ms-azuretools.vscode-docker","_lower":"ms-azuretools.vscode-docker"},"activationEvent":"onLanguage:dockerfile"}
+[2020-08-10 22:30:14.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-azuretools.vscode-docker-1.4.1/main
