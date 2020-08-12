@@ -1,3 +1,4 @@
+file:///home/francisco/0-FullCycle/Docker/laravel/docker-compose.yaml {"mtime":1597191671498,"ctime":1596766309894,"size":1469,"etag":"35h4clcd71gc","orphaned":false}
 version: '3'
 
 services:
@@ -11,7 +12,12 @@ services:
             - DB_DATABASE=laravel            
             - DB_USERNAME=root
             - DB_PASSWORD=root
-            
+
+            DB_HOST={{ .env.DB_HOST }}
+            DB_PORT=3306
+            DB_DATABASE={{ .env.DB_DATABASE }}
+            DB_USERNAME={{ .env.DB_USERNAME }}
+            DB_PASSWORD={{ .env.DB_PASSWORD }}            
         volumes: 
             - .:/var/www
         networks:
