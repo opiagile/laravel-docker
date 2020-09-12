@@ -11,3 +11,19 @@ steps:
     - id: "rodando composer"
       name: 'gcr.io/cloud-builders/docker'
       args: ['exec','-t','app','composer','install']      
+
+    - id: "copiando .env"
+      name: 'gcr.io/cloud-builders/docker'
+      args: ['exec','-t','app','cp','.env.example','.env']
+
+    - id: "rodando key:generate"
+      name: 'gcr.io/cloud-builders/docker'
+      args: ['exec','-t','app','php','/var/www/artisan','key:generate']
+
+    - id: "rodando migrations"
+      name: 'gcr.io/cloud-builders/docker'
+      args: ['exec','-t','app','php','/var/www/artisan','migrate']      
+
+    - id: "rodando phpunit"
+      name: 'gcr.io/cloud-builders/docker'
+      args: ['exec','-t','app','php','/var/www/vendor/bin/phpunit','/var/www/phpunit.xml']
